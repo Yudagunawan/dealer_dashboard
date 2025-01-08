@@ -35,9 +35,9 @@
 <div class="wrapper">
 
   <!-- Preloader -->
-  <div class="preloader flex-column justify-content-center align-items-center">
+  {{-- <div class="preloader flex-column justify-content-center align-items-center">
     <img class="animation__shake" src="{{url("dist/img/AdminLTELogo.png")}}" alt="AdminLTELogo" height="60" width="60">
-  </div>
+  </div> --}}
 
   <!-- Navbar -->
   <nav class="main-header navbar navbar-expand navbar-white navbar-light">
@@ -61,7 +61,7 @@
         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
           
           <div class="dropdown-divider"></div>
-          <a href="{{route('logout')}}" class="dropdown-item">
+          <a href="#" class="dropdown-item">
             <i class="fas fa-sign-out-alt mr-2"></i> logout
             <span class="float-right text-muted text-sm"></span>
           </a>
@@ -102,7 +102,7 @@
           <img src="{{url("dist/img/default-profile.jpg")}}" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">{{Auth::user()->username}}</a>
+          <a href="#" class="d-block"></a>
         </div>
       </div>
 
@@ -134,7 +134,7 @@
           </li>
         </li>
         <li class="nav-item">
-          <a href="{{route("upload.list")}}" class="nav-link">
+          <a href="#" class="nav-link">
             <i class="nav-icon fas fa-list-alt"></i>
             <p>
               List Upload
@@ -143,7 +143,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a href="{{route("users.list")}}" class="nav-link">
+          <a href="#" class="nav-link">
             <i class="nav-icon fas fa-users"></i>
             <p>
               Users List
@@ -152,7 +152,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a href="{{route("departments")}}" class="nav-link">
+          <a href="#" class="nav-link">
             <i class="nav-icon fas fa-university"></i>
             <p>
               Departments
